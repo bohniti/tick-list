@@ -112,50 +112,50 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| LOG-01 | — | Pending |
-| LOG-02 | — | Pending |
-| LOG-03 | — | Pending |
-| LOG-04 | — | Pending |
-| LOG-05 | — | Pending |
-| LOG-06 | — | Pending |
-| ROUTE-01 | — | Pending |
-| ROUTE-02 | — | Pending |
-| ROUTE-03 | — | Pending |
-| ROUTE-04 | — | Pending |
-| ROUTE-05 | — | Pending |
-| ROUTE-06 | — | Pending |
-| MCP-01 | — | Pending |
-| MCP-02 | — | Pending |
-| MCP-03 | — | Pending |
-| MCP-04 | — | Pending |
-| MCP-05 | — | Pending |
-| MCP-06 | — | Pending |
-| DASH-01 | — | Pending |
-| DASH-02 | — | Pending |
-| DASH-03 | — | Pending |
-| DASH-04 | — | Pending |
-| API-01 | — | Pending |
-| API-02 | — | Pending |
-| API-03 | — | Pending |
-| API-04 | — | Pending |
-| API-05 | — | Pending |
-| API-06 | — | Pending |
-| IMPORT-01 | — | Pending |
-| IMPORT-02 | — | Pending |
-| IMPORT-03 | — | Pending |
-| INFRA-01 | — | Pending |
-| INFRA-02 | — | Pending |
-| INFRA-03 | — | Pending |
-| INFRA-04 | — | Pending |
-| INFRA-05 | — | Pending |
-| INFRA-06 | — | Pending |
-| INFRA-07 | — | Pending |
+| LOG-01 | Phase 5 | Pending |
+| LOG-02 | Phase 5 | Pending |
+| LOG-03 | Phase 5 | Pending |
+| LOG-04 | Phase 5 | Pending |
+| LOG-05 | Phase 6 | Pending |
+| LOG-06 | Phase 5 | Pending |
+| ROUTE-01 | Phase 1 | Pending |
+| ROUTE-02 | Phase 1 | Pending |
+| ROUTE-03 | Phase 2 | Pending |
+| ROUTE-04 | Phase 1 | Pending |
+| ROUTE-05 | Phase 2 | Pending |
+| ROUTE-06 | Phase 1 | Pending |
+| MCP-01 | Phase 5 | Pending |
+| MCP-02 | Phase 6 | Pending |
+| MCP-03 | Phase 6 | Pending |
+| MCP-04 | Phase 2 | Pending |
+| MCP-05 | Phase 6 | Pending |
+| MCP-06 | Phase 5 | Pending |
+| DASH-01 | Phase 7 | Pending |
+| DASH-02 | Phase 7 | Pending |
+| DASH-03 | Phase 7 | Pending |
+| DASH-04 | Phase 7 | Pending |
+| API-01 | Phase 4 | Pending |
+| API-02 | Phase 4 | Pending |
+| API-03 | Phase 4 | Pending |
+| API-04 | Phase 4 | Pending |
+| API-05 | Phase 4 | Pending |
+| API-06 | Phase 4 | Pending |
+| IMPORT-01 | Phase 3 | Pending |
+| IMPORT-02 | Phase 3 | Pending |
+| IMPORT-03 | Phase 3 | Pending |
+| INFRA-01 | Phase 4 | Pending |
+| INFRA-02 | Phase 1 | Pending |
+| INFRA-03 | Phase 8 | Pending |
+| INFRA-04 | Phase 8 | Pending |
+| INFRA-05 | Phase 8 | Pending |
+| INFRA-06 | Phase 8 | Pending |
+| INFRA-07 | Phase 1 | Pending |
 
 **Coverage:**
-- v1 requirements: 37 total
-- Mapped to phases: 0
-- Unmapped: 37 ⚠️
+- v1 requirements: 38 total
+- Mapped to phases: 38/38
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-26*
-*Last updated: 2026-03-26 after initial definition*
+*Last updated: 2026-03-26 after roadmap creation*
