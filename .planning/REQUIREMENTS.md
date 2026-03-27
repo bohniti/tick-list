@@ -18,12 +18,12 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Routes & Grades
 
-- [ ] **ROUTE-01**: Routes stored in local PostgreSQL with name, grade, discipline, location, pitches
+- [x] **ROUTE-01**: Routes stored in local PostgreSQL with name, grade, discipline, location, pitches
 - [ ] **ROUTE-02**: Grade normalization across French, UIAA, YDS, Font, V-scale with numeric scoring
 - [ ] **ROUTE-03**: Three-tier route resolution: local DB first, then OpenBeta GraphQL, then Claude creates new entry
-- [ ] **ROUTE-04**: Locations stored hierarchically (area > crag > sector) with PostGIS coordinates
+- [x] **ROUTE-04**: Locations stored hierarchically (area > crag > sector) with PostGIS coordinates
 - [ ] **ROUTE-05**: Spatial queries: find crags within N km of a given point
-- [ ] **ROUTE-06**: Disciplines supported: sport, trad, boulder, multipitch, ice, mixed
+- [x] **ROUTE-06**: Disciplines supported: sport, trad, boulder, multipitch, ice, mixed
 
 ### MCP Server
 
@@ -64,7 +64,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **INFRA-04**: GitHub Actions CI pipeline: ruff lint, ruff format, pytest
 - [ ] **INFRA-05**: GitHub Actions CD: auto-deploy to VPS on push to main
 - [ ] **INFRA-06**: Backup script: pg_dump for database + rsync for photos
-- [ ] **INFRA-07**: SQLAlchemy 2.0 async models + Alembic migrations with GeoAlchemy2
+- [x] **INFRA-07**: SQLAlchemy 2.0 async models + Alembic migrations with GeoAlchemy2
 
 ## v2 Requirements
 
@@ -118,12 +118,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | LOG-04 | Phase 5 | Pending |
 | LOG-05 | Phase 6 | Pending |
 | LOG-06 | Phase 5 | Pending |
-| ROUTE-01 | Phase 1 | Pending |
+| ROUTE-01 | Phase 1 | Complete |
 | ROUTE-02 | Phase 1 | Pending |
 | ROUTE-03 | Phase 2 | Pending |
-| ROUTE-04 | Phase 1 | Pending |
+| ROUTE-04 | Phase 1 | Complete |
 | ROUTE-05 | Phase 2 | Pending |
-| ROUTE-06 | Phase 1 | Pending |
+| ROUTE-06 | Phase 1 | Complete |
 | MCP-01 | Phase 5 | Pending |
 | MCP-02 | Phase 6 | Pending |
 | MCP-03 | Phase 6 | Pending |
@@ -149,7 +149,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | INFRA-04 | Phase 8 | Pending |
 | INFRA-05 | Phase 8 | Pending |
 | INFRA-06 | Phase 8 | Pending |
-| INFRA-07 | Phase 1 | Pending |
+| INFRA-07 | Phase 1 | Complete |
 
 **Coverage:**
 - v1 requirements: 38 total
