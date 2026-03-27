@@ -6,8 +6,6 @@ bouldering grades, slash grades, edge cases, round-trips, monotonicity.
 
 from __future__ import annotations
 
-import pytest
-
 from tick_list.grades import (
     FONT_NUMERIC,
     FRENCH_NUMERIC,
@@ -18,7 +16,6 @@ from tick_list.grades import (
     grade_to_numeric,
     normalize_to_french,
 )
-
 
 # --- UIAA to French conversion (D-01, D-02) ---
 
@@ -113,7 +110,8 @@ class TestNumericScoring:
         scores = [FRENCH_NUMERIC[g] for g in sorted_grades]
         for i in range(1, len(scores)):
             assert scores[i] > scores[i - 1], (
-                f"Not monotonic: {sorted_grades[i-1]}={scores[i-1]} >= {sorted_grades[i]}={scores[i]}"
+                f"Not monotonic: {sorted_grades[i - 1]}={scores[i - 1]}"
+                f" >= {sorted_grades[i]}={scores[i]}"
             )
 
 
