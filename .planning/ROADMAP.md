@@ -33,10 +33,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Grade normalization converts between French, UIAA, YDS, Font, and V-scale with numeric scoring, and round-trips without data loss
   4. FastAPI health endpoint responds, FastMCP sub-app mounts without path conflicts
   5. Routes store name, grade, discipline, location reference, and pitch count; locations store hierarchical area/crag/sector with PostGIS coordinates; disciplines include sport, trad, boulder, multipitch, ice, mixed
-**Plans:** 3 plans
+**Plans:** 1/3 plans executed
 
 Plans:
-- [ ] 01-01-PLAN.md — Project skeleton, dependencies, Docker Compose, FastAPI+FastMCP app
+- [x] 01-01-PLAN.md — Project skeleton, dependencies, Docker Compose, FastAPI+FastMCP app
 - [ ] 01-02-PLAN.md — SQLAlchemy ORM models, Alembic async migrations, model/migration tests
 - [ ] 01-03-PLAN.md — Grade normalization module (TDD)
 
@@ -126,7 +126,7 @@ Note: Phases 4, 5, and 7 form parallel tracks after Phase 2 (REST API track vs M
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Schema | 0/3 | Planning complete | - |
+| 1. Foundation & Schema | 1/3 | In Progress|  |
 | 2. Services & Route Resolution | 0/? | Not started | - |
 | 3. Data Import | 0/? | Not started | - |
 | 4. REST API & Auth | 0/? | Not started | - |
