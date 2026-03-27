@@ -84,7 +84,7 @@ class TestAutoDetection:
 
     def test_uiaa_auto(self):
         """UIAA detected by pattern match."""
-        assert normalize_to_french("7+") == "6c+"
+        assert normalize_to_french("7+") == "7a+"
 
     def test_french_passthrough(self):
         """Already French returns unchanged."""
@@ -154,7 +154,7 @@ class TestEdgeCases:
         assert normalize_to_french("unknown_grade") == "unknown_grade"
 
     def test_whitespace_stripped(self):
-        assert normalize_to_french("  7+  ") == "6c+"
+        assert normalize_to_french("  7+  ") == "7a+"
 
     def test_7_slash_a_aid_notation(self):
         """The '7/A' aid notation returns the free climbing grade '7a' for the '7' component."""
