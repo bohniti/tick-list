@@ -19,7 +19,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Routes & Grades
 
 - [ ] **ROUTE-01**: Routes stored in local PostgreSQL with name, grade, discipline, location, pitches
-- [ ] **ROUTE-02**: Grade normalization across French, UIAA, YDS, Font, V-scale with numeric scoring
+- [x] **ROUTE-02**: Grade normalization across French, UIAA, YDS, Font, V-scale with numeric scoring
 - [ ] **ROUTE-03**: Three-tier route resolution: local DB first, then OpenBeta GraphQL, then Claude creates new entry
 - [ ] **ROUTE-04**: Locations stored hierarchically (area > crag > sector) with PostGIS coordinates
 - [ ] **ROUTE-05**: Spatial queries: find crags within N km of a given point
@@ -119,7 +119,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | LOG-05 | Phase 6 | Pending |
 | LOG-06 | Phase 5 | Pending |
 | ROUTE-01 | Phase 1 | Pending |
-| ROUTE-02 | Phase 1 | Pending |
+| ROUTE-02 | Phase 1 | Complete |
 | ROUTE-03 | Phase 2 | Pending |
 | ROUTE-04 | Phase 1 | Pending |
 | ROUTE-05 | Phase 2 | Pending |

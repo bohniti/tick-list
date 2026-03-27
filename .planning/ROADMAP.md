@@ -38,7 +38,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 Plans:
 - [x] 01-01-PLAN.md — Project skeleton, dependencies, Docker Compose, FastAPI+FastMCP app
 - [ ] 01-02-PLAN.md — SQLAlchemy ORM models, Alembic async migrations, model/migration tests
-- [ ] 01-03-PLAN.md — Grade normalization module (TDD)
+- [x] 01-03-PLAN.md — Grade normalization module (TDD)
 
 ### Phase 2: Services & Route Resolution
 **Goal**: A shared service layer that both MCP tools and REST endpoints will consume, with three-tier route resolution and spatial queries working
